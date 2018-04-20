@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.1.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd"
+       default-autowire="byName">
+
+    <!-- 默认的dataSource -->
+    <bean id="abstractXADataSource" class="com.atomikos.jdbc.AtomikosDataSourceBean" init-method="init" destroy-method="close" abstract="true">
+        <property name="xaDataSourceClassName" value="com.mysql.jdbc.jdbc2.optional.MysqlXADataSource" />  <!-- SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]  -->
+        <property name="poolSize" value="50" />
+        <property name="minPoolSize" value="15"/>
+        <property name="maxPoolSize" value="100"/>
+        <property name="borrowConnectionTimeout" value="60"/>
+        <property name="reapTimeout" value="20"/>
+        <property name="maxIdleTime" value="60"/>
+        <property name="maintenanceInterval" value="60"/>
+        <property name="loginTimeout" value="60"/>
+        <property name="testQuery" value="select 1 from dual"/> <!--解决偶尔失去连接的bug-->
+    </bean>
+
+    <bean id="dataSourceWrite" class="com.atomikos.jdbc.AtomikosDataSourceBean" parent="abstractXADataSource">
+        <property name="uniqueResourceName" value="jdbc/dataSourceWrite" />
+        <property name="xaProperties">
+            <props>
+                <prop key="URL">${jdbc.write.url}</prop>
+                <prop key="user">${jdbc.write.username}</prop>
+                <prop key="password">${jdbc.write.password}</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="dataSourceRead" class="com.atomikos.jdbc.AtomikosDataSourceBean" parent="abstractXADataSource">
+        <property name="uniqueResourceName" value="jdbc/dataSourceRead" />
+        <property name="xaProperties">
+            <props>
+                <prop key="URL">${jdbc.read.url}</prop>
+                <prop key="user">${jdbc.read.username}</prop>
+                <prop key="password">${jdbc.read.password}</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="dataSourceMallRead" class="com.atomikos.jdbc.AtomikosDataSourceBean" parent="abstractXADataSource">
+        <property name="uniqueResourceName" value="jdbc/dataSourceMallRead" />
+        <property name="xaProperties">
+            <props>
+                <prop key="URL">${jdbc.mall.url}</prop>
+                <prop key="user">${jdbc.mall.username}</prop>
+                <prop key="password">${jdbc.mall.password}</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="dataSourceMallWrite" class="com.atomikos.jdbc.AtomikosDataSourceBean" parent="abstractXADataSource">
+        <property name="uniqueResourceName" value="jdbc/dataSourceMallWrite" />
+        <property name="xaProperties">
+            <props>
+                <prop key="URL">${jdbc.mall.url}</prop>
+                <prop key="user">${jdbc.mall.username}</prop>
+                <prop key="password">${jdbc.mall.password}</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="dataSource" class="com.seemoonup.common.datasource.RoutingDataSource">
+        <property name="targetDataSources">
+            <map key-type="java.lang.String">
+                <!-- write -->
+                <entry key="master" value-ref="dataSourceWrite"/>
+                <!-- read -->
+                <entry key="slave" value-ref="dataSourceRead"/>
+            </map>
+        </property>
+        <property name="defaultTargetDataSource" ref="dataSourceWrite"/>
+    </bean>
+
+    <bean id="dataSourceMall" class="com.seemoonup.common.datasource.RoutingDataSource">
+        <property name="targetDataSources">
+            <map key-type="java.lang.String">
+                <!-- mall salve -->
+                <entry key="mallSlave" value-ref="dataSourceMallRead"/>
+                <!-- mall master -->
+                <entry key="mallMaster" value-ref="dataSourceMallWrite"/>
+
+            </map>
+        </property>
+        <property name="defaultTargetDataSource" ref="dataSourceMallWrite"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx-3.0.xsd 
+	http://www.springframework.org/schema/jee 
+	http://www.springframework.org/schema/jee/spring-jee-3.0.xsd 
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context-3.0.xsd"
+	default-autowire="byName">
+
+
+    <!-- 自动扫描mapper配置 -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<!-- 指定要扫描的包,在此包之下的映射器都会被搜索到,多个包之间用逗号或分号分隔 -->
+		<property name="basePackage" value="com.seemoonup.dao.mapper" />
+		<!-- autowire默认byName的情况下,sqlSessionFactoryBeanName的值不能为sqlSessionFactory -->
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactorySCJ" />
+	</bean>
+
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.seemoonup.dao.mapper"/>
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryMall"/>
+	</bean>
+
+</beans>

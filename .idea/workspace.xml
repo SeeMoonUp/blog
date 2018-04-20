@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1398dcf-b44d-4fea-b4a5-bd2fa7a54be3" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/function.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/atomikos_blog.log.lck" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/atomikos_blog.log20.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/hawaii_sql.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/hawaii_sql.log.2018-04-01.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/hawaii_sql.log.2018-04-09.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/hawaii_sql.log.2018-04-10.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/hawaii_sql.log.2018-04-11.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/hawaii_sql.log.2018-04-12.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/hawaii_sql.log.2018-04-13.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/hawaii_sql.log.2018-04-15.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/hawaii_sql.log.2018-04-16.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/hawaii_sql.log.2018-04-17.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logs/hawaii_wire.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/blog/web/controller/BaseController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/blog/web/controller/BlogController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/blog/web/controller/IndexController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/common/aspect/ControllerAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/common/aspect/JobAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/common/aspect/MapperAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/common/aspect/TransactionAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/common/datasource/DataSourceHolder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/common/datasource/DataSourceSelector.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/common/datasource/JdbcTemplateUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/common/datasource/RoutingDataSource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/common/spring/SpringContextHolder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/common/spring/TransactionDataSourceHolder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/common/utils/EnvironmentConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/common/utils/UrlConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/dao/impl/BlogDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/dao/mapper/BlogMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/dao/mapper/config/BlogMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/model/entity/Blog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/model/entity/page/PageInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/service/IBlogService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seemoonup/service/impl/BlogService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/profiles/dev/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/profiles/dev/jta.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/profiles/dev/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/mybatis-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/servlet-context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-datasource.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-import-dao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-interceptor.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mq.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/blogDetail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/blogList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/marked.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/nav.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/sidebar.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/sql.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/blog/about.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/blog/contact.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/blog/detail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/blog/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/sql.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/sql.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/avatars/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/avatars/avatar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/avatars/avatar1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/avatars/avatar2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/avatars/avatar3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/avatars/avatar4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/avatars/avatar5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/avatars/profile-pic.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/avatars/user.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/ace-ie.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/ace-rtl.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/ace-skins.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/ace.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/bootstrap-editable.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/bootstrap-timepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/chosen.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/colorbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/colorpicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/datepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/daterangepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/dropzone.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/font-awesome-ie7.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/fullcalendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/images/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/jquery-ui-1.10.3.custom.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/jquery-ui-1.10.3.full.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/jquery.gritter.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/css/ui.jqgrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/font/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/images/gallery/image-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/images/gallery/image-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/images/gallery/image-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/images/gallery/image-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/images/gallery/image-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/images/gallery/image-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/images/gallery/thumb-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/images/gallery/thumb-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/images/gallery/thumb-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/images/gallery/thumb-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/images/gallery/thumb-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/images/gallery/thumb-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/ace-elements.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/ace-extra.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/ace.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/additional-methods.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/bootbox.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/bootstrap-colorpicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/bootstrap-tag.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/bootstrap-wysiwyg.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/chosen.jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/date-time/bootstrap-datepicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/date-time/bootstrap-timepicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/date-time/daterangepicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/date-time/moment.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/dropzone.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/excanvas.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/flot/jquery.flot.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/flot/jquery.flot.pie.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/flot/jquery.flot.resize.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/fuelux/data/fuelux.tree-sampledata.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/fuelux/fuelux.spinner.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/fuelux/fuelux.tree.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/fuelux/fuelux.wizard.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/fullcalendar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/html5shiv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jqGrid/i18n/grid.locale-en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jqGrid/jquery.jqGrid.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery-1.10.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery-2.0.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery-ui-1.10.3.custom.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery-ui-1.10.3.full.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.autosize.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.colorbox-min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.dataTables.bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.dataTables.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.easy-pie-chart.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.gritter.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.hotkeys.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.inputlimiter.1.3.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.knob.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.maskedinput.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.mobile.custom.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.nestable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.slimscroll.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.sparkline.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.ui.touch-punch.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/jquery.validate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/markdown/bootstrap-markdown.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/markdown/markdown.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/respond.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/select2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/typeahead-bs2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/x-editable/ace-editable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/assets/js/x-editable/bootstrap-editable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/css/clean-blog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/css/clean-blog.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/img/about-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/img/contact-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/img/home-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/img/post-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/img/post-sample-image.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/js/clean-blog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/js/clean-blog.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/js/contact_me.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/js/contact_me.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/js/jqBootstrapValidation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/js/jqBootstrapValidation.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/bootstrap/js/bootstrap.bundle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/bootstrap/js/bootstrap.bundle.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/bootstrap/js/bootstrap.bundle.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/bootstrap/js/bootstrap.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/bootstrap/js/bootstrap.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/css/font-awesome.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/animated.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/bordered-pulled.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/core.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/fixed-width.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/font-awesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/larger.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/list.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/path.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/rotated-flipped.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/screen-reader.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/stacked.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_path.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/font-awesome/scss/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/jquery/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/jquery/jquery.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/jquery/jquery.slim.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/jquery/jquery.slim.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/client/vendor/jquery/jquery.slim.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/showdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/data/flot-data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/data/morris-data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/dist/css/sb-admin-2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/dist/css/sb-admin-2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/dist/js/sb-admin-2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/dist/js/sb-admin-2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/js/sb-admin-2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/bootstrap-social/bootstrap-social.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/bootstrap-social/bootstrap-social.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/bootstrap-social/bootstrap-social.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables-plugins/dataTables.bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables-plugins/dataTables.bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables-plugins/dataTables.bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables-plugins/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables-responsive/dataTables.responsive.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables-responsive/dataTables.responsive.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables-responsive/dataTables.responsive.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.bootstrap4.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.bootstrap4.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.foundation.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.foundation.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.jqueryui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.jqueryui.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.material.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.material.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.semanticui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.semanticui.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.uikit.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/dataTables.uikit.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/jquery.dataTables.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/jquery.dataTables.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/css/jquery.dataTables_themeroller.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/images/Sorting icons.psd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/images/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/images/sort_asc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/images/sort_asc_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/images/sort_both.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/images/sort_desc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/images/sort_desc_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.bootstrap4.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.bootstrap4.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.foundation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.foundation.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.jqueryui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.jqueryui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.material.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.material.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.semanticui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.semanticui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.uikit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/dataTables.uikit.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/jquery.dataTables.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/jquery.dataTables.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/datatables/js/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot-tooltip/jquery.flot.tooltip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot-tooltip/jquery.flot.tooltip.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot-tooltip/jquery.flot.tooltip.source.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/excanvas.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/excanvas.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.colorhelpers.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.canvas.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.categories.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.crosshair.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.errorbars.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.fillbetween.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.image.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.navigate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.pie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.resize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.selection.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.stack.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.symbol.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.threshold.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.flot.time.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/flot/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/HELP-US-OUT.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/css/font-awesome.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/animated.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/bordered-pulled.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/core.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/extras.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/fixed-width.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/font-awesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/larger.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/list.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/path.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/rotated-flipped.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/screen-reader.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/spinning.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/stacked.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_extras.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_path.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_spinning.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/font-awesome/scss/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/jquery/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/metisMenu/metisMenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/metisMenu/metisMenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/metisMenu/metisMenu.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/metisMenu/metisMenu.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/morrisjs/morris.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/morrisjs/morris.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/morrisjs/morris.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/raphael/raphael.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/sbAdmin2/vendor/raphael/raphael.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog.war" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/applicationContext.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/blog/web/controller/BaseController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/blog/web/controller/BaseController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/blog/web/controller/BlogController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/blog/web/controller/BlogController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/blog/web/controller/IndexController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/blog/web/controller/IndexController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/aspect/ControllerAspect.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/aspect/ControllerAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/aspect/JobAspect.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/aspect/JobAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/aspect/MapperAspect.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/aspect/MapperAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/aspect/TransactionAspect.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/aspect/TransactionAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/datasource/DataSourceHolder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/datasource/DataSourceHolder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/datasource/DataSourceSelector.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/datasource/DataSourceSelector.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/datasource/JdbcTemplateUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/datasource/JdbcTemplateUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/datasource/RoutingDataSource.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/datasource/RoutingDataSource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/spring/SpringContextHolder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/spring/SpringContextHolder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/spring/TransactionDataSourceHolder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/spring/TransactionDataSourceHolder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/utils/EnvironmentConfig.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/utils/EnvironmentConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/utils/UrlConfig.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/common/utils/UrlConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/dao/impl/BlogDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/dao/impl/BlogDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/dao/mapper/BlogMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/dao/mapper/BlogMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/dao/mapper/config/BlogMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/model/entity/Blog.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/model/entity/Blog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/model/entity/page/PageInfo.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/model/entity/page/PageInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/service/IBlogService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/service/IBlogService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/service/impl/BlogService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/com/seemoonup/service/impl/BlogService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/jta.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/mapper/mybatis-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/servlet-context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/spring/spring-datasource.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/spring/spring-import-dao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/spring/spring-interceptor.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/spring/spring-mapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/spring/spring-mq.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/classes/spring/spring-mybatis.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/jsp/admin/blogDetail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/jsp/admin/blogList.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/jsp/admin/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/jsp/admin/marked.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/jsp/admin/nav.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/jsp/admin/sidebar.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/jsp/admin/sql.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/jsp/blog/about.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/jsp/blog/contact.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/jsp/blog/detail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/jsp/blog/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/activation-1.1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/alibaba-v1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/antlr-2.7.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/aspectjweaver-1.6.11.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/atomikos-util-4.0.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/bcprov-jdk15on-1.50.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/bcs-sdk-1.4.5.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/cglib-nodep-2.2.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/cloopen-sdk-2.7.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-beanutils-1.8.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-chain-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-cli-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-codec-1.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-collections-3.2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-configuration-1.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-dbcp2-2.1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-digester-1.8.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-email-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-io-2.0.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-lang-2.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-logging-1.1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-pool-1.5.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-pool2-2.4.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/commons-validator-1.3.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/curvesapi-1.03.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/dom4j-1.6.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/ehcache-core-2.5.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/ezmorph-1.0.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/flexjson-2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/fluent-hc-4.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/gson-2.3.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/guava-18.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/httpasyncclient-4.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/httpclient-4.4.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/httpclient-cache-4.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/httpcore-4.4.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/httpcore-ab-4.2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/httpcore-nio-4.4.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/httpmime-4.5.3.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/icu4j-2.6.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jackson-core-asl-1.9.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jackson-jaxrs-1.9.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jackson-mapper-asl-1.9.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jackson-xc-1.9.6.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jakarta-regexp-1.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/javassist-3.12.1.GA.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/javax.inject-1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jaxb-api-2.2.3.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jaxb-impl-2.2.4-1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jaxen-1.1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jcip-annotations-1.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jdom-1.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jedis-2.7.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/joda-time-2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/json-20090211.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/json-lib-2.4-jdk15.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/json-smart-1.1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jsoup-1.6.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jstl-1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/jta-1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/log4j-1.2.16.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/lucene-analyzers-common-4.0.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/lucene-core-4.0.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/lucene-queries-4.0.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/lucene-queryparser-4.0.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/lucene-sandbox-4.0.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mail-1.4.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mmseg4j-analysis-1.9.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mmseg4j-core-1.9.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mybatis-3.1.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mybatis-spring-1.2.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/mysql-connector-java-5.1.14.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/nimbus-jose-jwt-2.25.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/ons-client-1.7.1.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/org.json-chargebee-1.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/oro-2.0.8.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/pinyin4j-2.5.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/poi-3.15-beta1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/poi-ooxml-3.15-beta1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/poi-ooxml-schemas-3.15-beta1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/qiniu-java-sdk-7.0.7.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/sdk-6.1.9.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/shiro-core-1.2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/shiro-ehcache-1.2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/shiro-spring-1.2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/shiro-web-1.2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/slf4j-api-1.6.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-aop-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-asm-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-beans-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-context-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-context-support-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-core-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-expression-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-jdbc-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-jms-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-orm-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-oxm-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-tx-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-web-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/spring-webmvc-3.1.1.RELEASE.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/standard-1.1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/stax-api-1.0-2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/stax-api-1.0.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/struts-core-1.3.10.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/struts-taglib-1.3.10.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/transactions-4.0.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/transactions-api-4.0.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/transactions-jdbc-4.0.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/transactions-jms-4.0.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/transactions-jta-4.0.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/xmlbeans-2.6.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/xom-1.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/lib/xstream-1.4.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/sql.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/sql.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/avatars/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/avatars/avatar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/avatars/avatar1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/avatars/avatar2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/avatars/avatar3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/avatars/avatar4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/avatars/avatar5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/avatars/profile-pic.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/avatars/user.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/ace-ie.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/ace-rtl.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/ace-skins.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/ace.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/bootstrap-editable.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/bootstrap-timepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/chosen.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/colorbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/colorpicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/datepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/daterangepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/dropzone.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/font-awesome-ie7.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/fullcalendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/images/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/jquery-ui-1.10.3.custom.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/jquery-ui-1.10.3.full.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/jquery.gritter.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/css/ui.jqgrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/font/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/images/gallery/image-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/images/gallery/image-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/images/gallery/image-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/images/gallery/image-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/images/gallery/image-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/images/gallery/image-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/images/gallery/thumb-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/images/gallery/thumb-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/images/gallery/thumb-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/images/gallery/thumb-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/images/gallery/thumb-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/images/gallery/thumb-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/ace-elements.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/ace-extra.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/ace.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/additional-methods.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/bootbox.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/bootstrap-colorpicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/bootstrap-tag.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/bootstrap-wysiwyg.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/chosen.jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/date-time/bootstrap-datepicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/date-time/bootstrap-timepicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/date-time/daterangepicker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/date-time/moment.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/dropzone.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/excanvas.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/flot/jquery.flot.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/flot/jquery.flot.pie.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/flot/jquery.flot.resize.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/fuelux/data/fuelux.tree-sampledata.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/fuelux/fuelux.spinner.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/fuelux/fuelux.tree.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/fuelux/fuelux.wizard.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/fullcalendar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/html5shiv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jqGrid/i18n/grid.locale-en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jqGrid/jquery.jqGrid.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery-1.10.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery-2.0.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery-ui-1.10.3.custom.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery-ui-1.10.3.full.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.autosize.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.colorbox-min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.dataTables.bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.dataTables.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.easy-pie-chart.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.gritter.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.hotkeys.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.inputlimiter.1.3.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.knob.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.maskedinput.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.mobile.custom.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.nestable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.slimscroll.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.sparkline.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.ui.touch-punch.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/jquery.validate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/markdown/bootstrap-markdown.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/markdown/markdown.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/respond.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/select2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/typeahead-bs2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/x-editable/ace-editable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/bootstrap/assets/js/x-editable/bootstrap-editable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/css/clean-blog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/css/clean-blog.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/img/about-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/img/contact-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/img/home-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/img/post-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/img/post-sample-image.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/js/clean-blog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/js/clean-blog.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/js/contact_me.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/js/contact_me.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/js/jqBootstrapValidation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/js/jqBootstrapValidation.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/bootstrap/js/bootstrap.bundle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/bootstrap/js/bootstrap.bundle.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/bootstrap/js/bootstrap.bundle.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/bootstrap/js/bootstrap.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/bootstrap/js/bootstrap.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/css/font-awesome.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/animated.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/bordered-pulled.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/core.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/fixed-width.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/font-awesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/larger.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/list.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/path.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/rotated-flipped.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/screen-reader.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/stacked.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_path.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/font-awesome/scss/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/jquery/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/jquery/jquery.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/jquery/jquery.slim.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/jquery/jquery.slim.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/client/vendor/jquery/jquery.slim.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/js/showdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/data/flot-data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/data/morris-data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/dist/css/sb-admin-2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/dist/css/sb-admin-2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/dist/js/sb-admin-2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/dist/js/sb-admin-2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/js/sb-admin-2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/bootstrap-social/bootstrap-social.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/bootstrap-social/bootstrap-social.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/bootstrap-social/bootstrap-social.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables-plugins/dataTables.bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables-plugins/dataTables.bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables-plugins/dataTables.bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables-plugins/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables-responsive/dataTables.responsive.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables-responsive/dataTables.responsive.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables-responsive/dataTables.responsive.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.bootstrap4.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.bootstrap4.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.foundation.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.foundation.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.jqueryui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.jqueryui.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.material.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.material.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.semanticui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.semanticui.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.uikit.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/dataTables.uikit.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/jquery.dataTables.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/jquery.dataTables.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/css/jquery.dataTables_themeroller.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/images/Sorting icons.psd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/images/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/images/sort_asc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/images/sort_asc_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/images/sort_both.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/images/sort_desc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/images/sort_desc_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.bootstrap4.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.bootstrap4.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.foundation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.foundation.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.jqueryui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.jqueryui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.material.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.material.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.semanticui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.semanticui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.uikit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/dataTables.uikit.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/jquery.dataTables.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/jquery.dataTables.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/datatables/js/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot-tooltip/jquery.flot.tooltip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot-tooltip/jquery.flot.tooltip.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot-tooltip/jquery.flot.tooltip.source.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/excanvas.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/excanvas.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.colorhelpers.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.canvas.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.categories.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.crosshair.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.errorbars.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.fillbetween.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.image.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.navigate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.pie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.resize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.selection.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.stack.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.symbol.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.threshold.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.flot.time.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/flot/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/HELP-US-OUT.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/css/font-awesome.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/animated.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/bordered-pulled.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/core.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/extras.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/fixed-width.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/font-awesome.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/icons.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/larger.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/list.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/mixins.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/path.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/rotated-flipped.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/screen-reader.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/spinning.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/stacked.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/less/variables.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_animated.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_extras.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_larger.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_list.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_path.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_spinning.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_stacked.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/font-awesome/scss/font-awesome.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/jquery/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/metisMenu/metisMenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/metisMenu/metisMenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/metisMenu/metisMenu.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/metisMenu/metisMenu.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/morrisjs/morris.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/morrisjs/morris.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/morrisjs/morris.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/raphael/raphael.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/blog/static/sbAdmin2/vendor/raphael/raphael.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/blog/web/controller/BaseController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/blog/web/controller/BaseController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/blog/web/controller/BlogController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/blog/web/controller/BlogController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/blog/web/controller/IndexController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/blog/web/controller/IndexController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/aspect/ControllerAspect.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/aspect/ControllerAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/aspect/JobAspect.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/aspect/JobAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/aspect/MapperAspect.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/aspect/MapperAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/aspect/TransactionAspect.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/aspect/TransactionAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/datasource/DataSourceHolder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/datasource/DataSourceHolder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/datasource/DataSourceSelector.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/datasource/DataSourceSelector.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/datasource/JdbcTemplateUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/datasource/JdbcTemplateUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/datasource/RoutingDataSource.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/datasource/RoutingDataSource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/spring/SpringContextHolder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/spring/SpringContextHolder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/spring/TransactionDataSourceHolder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/spring/TransactionDataSourceHolder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/utils/EnvironmentConfig.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/utils/EnvironmentConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/utils/UrlConfig.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/common/utils/UrlConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/dao/impl/BlogDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/dao/impl/BlogDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/dao/mapper/BlogMapper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/dao/mapper/BlogMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/dao/mapper/config/BlogMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/model/entity/Blog.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/model/entity/Blog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/model/entity/page/PageInfo.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/model/entity/page/PageInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/service/IBlogService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/service/IBlogService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/service/impl/BlogService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/seemoonup/service/impl/BlogService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/jta.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/mybatis-config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/servlet-context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-datasource.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-import-dao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-interceptor.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mq.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mybatis.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/WEB_002dINF/jsp/admin/blogDetail_jsp.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/WEB_002dINF/jsp/admin/blogList_jsp.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/WEB_002dINF/jsp/admin/index_jsp.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/老玩童@十一贝.md" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/profiles/dev/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>laowantong</find>
+      <find>fermi</find>
+      <find>@author fermi</find>
+      <find>Alvin(Alvin@laowantong.cc)</find>
+      <find>alvin</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>@author fupdatebylemon</replace>
+      <replace>aupdatebylemon</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/profiles/dev/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/software/maven/repository" />
+        <option name="userSettingsFile" value="$USER_HOME$/software/maven/apache-maven-3.5.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1398dcf-b44d-4fea-b4a5-bd2fa7a54be3" name="Default" comment="" />
+      <created>1524232423504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524232423504</updated>
+      <workItem from="1524232425290" duration="321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="321000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/profiles/dev/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

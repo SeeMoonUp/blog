@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.seemoonup.dao.mapper.BlogMapper">
+
+    <resultMap id="blogMap" type="com.seemoonup.model.entity.Blog">
+        <id property="id" column="id" />
+        <result property="title" column="resourceType" />
+        <result property="markdownContent" column="resourceId" />
+        <result property="htmlContent" column="adInfoId" />
+        <result property="createTime" column="locationName" />
+    </resultMap>
+
+
+    <!-- 新增 -->
+    <insert id="saveBlog"  parameterType="com.seemoonup.model.entity.Blog" useGeneratedKeys="true" keyProperty="id">
+    	insert into smu_blog(
+    		id,
+            title,
+            markdownContent,
+            htmlContent,
+            createTime
+    	) values (
+            #{id},
+            #{title},
+            #{markdownContent},
+            #{htmlContent},
+            #{createTime}
+    	)
+    </insert>
+
+    <select id="getBlog" resultMap="blogMap" parameterType="int">
+        select * from smu_blog where id = #{blogId}
+    </select>
+
+    <select id="listBlog" parameterType="com.seemoonup.model.entity.page.PageInfo" resultType="com.seemoonup.model.entity.Blog">
+        select * from smu_blog
+        order by id desc limit #{start}, #{limit}
+    </select>
+
+</mapper>

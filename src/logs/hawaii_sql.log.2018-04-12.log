@@ -1,0 +1,4 @@
+2018-04-12 09:48:13.013 DEBUG [btpool0-18] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug(Slf4jImpl.java:47) - Creating a new SqlSession
+2018-04-12 09:48:13.013 DEBUG [btpool0-18] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug(Slf4jImpl.java:47) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a98d271] was not registered for synchronization because synchronization is not active
+2018-04-12 09:48:13.013 DEBUG [btpool0-18] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug(Slf4jImpl.java:47) - JDBC Connection [com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@4900f1c7] will not be managed by Spring
+2018-04-12 09:48:13.013 DEBUG [btpool0-18] org.apache.ibatis.logging.slf4j.Slf4jImpl.debug(Slf4jImpl.java:47) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a98d271]
