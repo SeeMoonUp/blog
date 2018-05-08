@@ -608,13 +608,6 @@
             <!--<artifactId>bcs-sdk</artifactId>-->
             <!--<version>${baidusdk.version}</version>-->
         <!--</dependency>-->
-        <!-- 云通讯 -->
-        <dependency>
-            <groupId>com.cloopen.rest</groupId>
-            <artifactId>cloopen-sdk</artifactId>
-            <version>${cloopen.version}</version>
-        </dependency>
-        <!-- Added For Baidu BOS -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpcore-nio</artifactId>
