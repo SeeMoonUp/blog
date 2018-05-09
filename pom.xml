@@ -691,11 +691,11 @@
             <version>${guava.version}</version>
         </dependency>
         <!--阿里-->
-        <dependency>
-            <groupId>com.alibaba.sdk</groupId>
-            <artifactId>alibaba</artifactId>
-            <version>v1</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.alibaba.sdk</groupId>-->
+            <!--<artifactId>alibaba</artifactId>-->
+            <!--<version>v1</version>-->
+        <!--</dependency>-->
         <!--redis-->
         <dependency>
             <groupId>redis.clients</groupId>
